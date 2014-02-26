@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package listasligadasejemplo;
 
 /**
@@ -12,6 +11,7 @@ package listasligadasejemplo;
  */
 public class Nodo<T> {
     //valor
+
     private T valor;
     //liga
     private Nodo liga;
@@ -42,5 +42,11 @@ public class Nodo<T> {
      */
     public void setLiga(Nodo liga) {
         this.liga = liga;
+    }
+
+    public Nodo(T valor) {
+        this.valor = valor;
+    }
+    public Nodo() {
     }
 }
